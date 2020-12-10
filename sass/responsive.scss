@@ -25,6 +25,7 @@
       & .sw-item {
      
         flex: 100%;
+        border: none;
       }
     }
   }
@@ -446,6 +447,40 @@ section#s7 {
     }
   }
 
+  section#t10 {
+    margin-top: 100px;
+    & .sw-main {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 30px;
+      margin-right: 30px;
+  
+  
+      & .sw-item {
+        flex: 100%;
+        & img {
+          width: 100%;
+          margin: 5px;
+        }
+        
+        &:nth-child(1) {
+          margin-right: 0px;
+        }
+        &:nth-child(2) {
+          position: relative;
+          & img.logotienich8 {
+            width: 25%;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+          }
+        }
+      }
+    }
+  
+  
+  }
+
 
   //
 
@@ -704,6 +739,13 @@ section#s7 {
     }
   }
 
+  section#c1 .sw-main .sw-item:nth-child(1) .sw-item1 {
+    margin-left: 0px;
+  }
+  section#c2 .sw-main .sw-item:nth-child(1) .sw-item1 {
+  
+    margin-left: 0px;
+  }
 
   
   img.logotienich5 {

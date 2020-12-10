@@ -5,7 +5,8 @@
   margin: 0; }
 
 h2 {
-  color: #fff; }
+  color: red;
+  line-height: 50px; }
 
 section#c1 .sw-main {
   display: flex;
