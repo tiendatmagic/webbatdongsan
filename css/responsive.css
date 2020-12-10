@@ -75,6 +75,26 @@
   section#s4 .sw-mainn {
     width: 100%;
     height: 730px; }
+  section#s7 {
+    position: relative; }
+    section#s7 .sw-mainn {
+      height: 660px; }
+    section#s7 .sw-main .sw-item {
+      flex: 100%; }
+      section#s7 .sw-main .sw-item:nth-child(1) {
+        height: auto; }
+        section#s7 .sw-main .sw-item:nth-child(1) button {
+          width: 100%;
+          height: 50px;
+          background-color: #ff4800;
+          outline: none;
+          border: none;
+          border-radius: 15px;
+          color: #fff;
+          font-size: 22px; }
+      section#s7 .sw-main .sw-item:nth-child(2) {
+        height: auto;
+        font-size: 17px; }
   section#c1 .sw-main .sw-item {
     flex: 100%;
     height: 100vh; }
@@ -227,6 +247,10 @@
   section#s4 .sw-mainn {
     width: 100%;
     height: 450px; }
+  section#s6 .grid-container {
+    grid-template-columns: auto auto; }
+  section#s6 .grid-item {
+    font-size: 16px; }
   section#t3 .sw-mainnn img.logotienich2 {
     display: none; }
   section#t3 .sw-mainn:nth-child(1) {
