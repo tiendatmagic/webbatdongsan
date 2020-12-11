@@ -569,6 +569,22 @@ section#s5b .content div p {
   margin: 0;
   color: #777; }
 
+section#s5c .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto; }
+
+section#s5c .grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  section#s5c .grid-item img {
+    width: 90%; }
+  section#s5c .grid-item:nth-child(odd) {
+    color: red; }
+
 section#s6 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto; }
@@ -601,7 +617,6 @@ section#s7 {
     top: 0px;
     display: flex;
     width: 100%;
-    height: 100%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center; }
@@ -633,7 +648,8 @@ section#s7 {
           border: none;
           border-radius: 15px;
           color: #fff;
-          font-size: 22px; }
+          font-size: 22px;
+          cursor: pointer; }
       section#s7 .sw-main .sw-item:nth-child(2) {
         padding: 30px;
         height: 100%;

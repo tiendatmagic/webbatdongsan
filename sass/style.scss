@@ -746,6 +746,29 @@ section#s5b {
   
 }
 
+section#s5c {
+ & .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+ & .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & img {
+    width: 90%;
+    }
+
+    &:nth-child(odd) {
+      color: red;
+    }
+  }
+}
+
 section#s6 {
  & .grid-container {
     display: grid;
@@ -769,6 +792,7 @@ section#s6 {
   }
 }
 
+
 section#s7 {
   position: relative;
 
@@ -789,7 +813,6 @@ section#s7 {
     top: 0px;
 display: flex;
 width: 100%;
-height: 100%;
 flex-wrap: wrap;
 justify-content: center;
 align-items: center;
@@ -832,6 +855,7 @@ align-items: center;
       border-radius: 15px;
       color: #fff;
       font-size: 22px;
+      cursor: pointer;
       
     }
 
