@@ -456,7 +456,6 @@ section#s5b a.link {
 
 section#s5b .tabs {
   position: relative;
-  margin: 40px auto;
   width: 100%;
   max-width: 100%;
   overflow: hidden;
@@ -585,21 +584,23 @@ section#s5c .grid-item {
   section#s5c .grid-item:nth-child(odd) {
     color: red; }
 
-section#s6 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto; }
-
-section#s6 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  font-size: 20px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  section#s6 .grid-item img {
-    width: 25%; }
-  section#s6 .grid-item:nth-child(odd) {
-    color: red; }
+section#s6 {
+  margin-top: 30px; }
+  section#s6 .grid-container {
+    display: grid;
+    background: hotpink;
+    grid-template-columns: auto auto auto auto; }
+  section#s6 .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    section#s6 .grid-item img {
+      width: 25%; }
+    section#s6 .grid-item:nth-child(odd) {
+      color: red; }
 
 section#s7 {
   position: relative; }
