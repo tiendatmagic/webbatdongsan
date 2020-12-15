@@ -49,3 +49,5 @@ document.addEventListener('DOMContentLoaded', function() {
     rewind : true,
   } ).mount();
 });
+
+AOS.init();

@@ -5,7 +5,8 @@ html.no-js(lang='en')
     meta(name='viewport' content='width=device-width, initial-scale=1')
     link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css")
     link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css")
-  
+    link(href='https://unpkg.com/aos@2.3.1/dist/aos.css' rel='stylesheet')
+
     link(rel="stylesheet", href="css/style.css")
     link(rel="stylesheet", href="css/responsive.css")
     title Web bất động sản
@@ -17,61 +18,103 @@ html.no-js(lang='en')
           li.item
             a(href='./index.html') Trang chủ
           li.item
-            a(href="#s2") Ý tưởng
+            a(href="./index.html#s2") Ý tưởng
           li.item
-            a(href='./chitiet.html') Dự án
+            a(href='./chitiet.html') Thông tin dự án
           li.item
             a(href='tienich.html') Tiện ích
-          li.item
-            a(href='./ntnp.html') Nội thất và nhà phô
           li.toggle
             a(href='###')
               i.fas.fa-bars
     main
       section#s1
         .abs
-          .abs-header
+          .abs-header(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="00"
+                      data-aos-offset="0"
+                      )
             img(src="./images/logo2.png", width="100px" alt="" style="border-radius:10px")                                    
-            p TINH HOA
-            p CHUẨN SỐNG NHẬT   
+            p(data-aos="fade-right"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="300"
+                      data-aos-offset="0"
+                      ) TINH HOA
+            p(data-aos="fade-left"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="600"
+                      data-aos-offset="0"
+                      ) CHUẨN SỐNG NHẬT   
       section#s1b
         .sw-mainn
         
         .sw-mainnn
-          h2 Điểm Khác Biệt Tại Takara Residence
+          h2(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="00"
+                      data-aos-offset="0"
+                      ) Điểm Khác Biệt Tại Takara Residence
           .sw-main
-            .sw-item
+            .sw-item(data-aos="fade-zoom-in"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="300"
+                      data-aos-offset="0"
+                      )
               h2 Sở Hữu Vị Trí Kim Cương
               p Dự án nằm tại lõi trung tâm Phường Chánh Nghĩa – khu vực an ninh, dân trí và đầy đủ tiện nghi cao cấp nhất thủ Dầu Một. Nơi được rất nhiều các chuyên gia, giới thượng lưu chọn làm chốn an cư tại Bình Dương.
 
-            .sw-item
+            .sw-item(data-aos="fade-zoom-in"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="600"
+                      data-aos-offset="0"
+                      )
               h2 Đô Thị Chuẩn Nhật "có 1 Không 2" tại Bình Dương
               p Toàn bộ khu đô thị được thiết kế theo phong cách Nhật Bản. Tinh tế và tỉ mỉ từ cành cây, ngọn cỏ, các tiện ích cho đến thiết kế đặc sắc của từng căn nhà. Cư dân sống tại đây sẽ tận hưởng được cuộc sống tiện nghi hiếm có giữa trung tâm tỉnh Bình Dương. 
-            .sw-item
+            .sw-item(data-aos="fade-zoom-in"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="900"
+                      data-aos-offset="0"
+                      )
               h2 Pháp Lí Hoàn Thiện
               p Dự án đã có đầy đủ hồ sơ pháp lí ( 1/500, chấp thuận đầu tư…), đủ điều kiện mua bán và đang xây dựng rầm rộ. Đặc biệt, mỗi căn nhà đều đã có sổ hồng riêng từng lô. Khách hàng mua được ký hợp đồng mua bán ngay. Nhận sổ hồng có nhà trên đất sau khi nhận bàn giao nhà ( trong vòng 6 tháng )
         
       section#s2
         .sw-main
-          .sw-item
+          .sw-item(data-aos="fade-left"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="00"
+                      data-aos-offset="0"
+                      )
             h4 Ý tưởng thiết kế
             h1 Takara Residence
 
             p Lấy cảm hứng từ xứ sở Hoa Anh Đào – Nhật Bản – Nơi được cả thế giới ngưỡng mộ về sự thanh tao, tinh tế trong từng nét văn hoá. Dự án Takara Residence là khu đô thị phức hợp chuẩn sống phong cách Nhật. Từ những đường nét kiến trúc, không gian văn hóa, hệ thống tiện ích cho đến các con đường. 
             br
             p Cư dân nơi đây sẽ hưởng trọn phong cách sống đa trải nghiệm với sự kết hợp giữa văn hoá truyền thống giao thoa với lối sống tinh giản hiện đại của người Nhật ngay giữa lòng Thành phố Thủ Dầu Một sầm uất.
-          .sw-item
+          .sw-item(data-aos="fade-right"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="400"
+                      data-aos-offset="0"
+                      )
             img(src="./images/ytuong.png", alt="")
 
       section#s2b
         .sw-mainn
          
         .sw-main
-          h2 Tổng quan dự án
+          h2(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="00"
+                      data-aos-offset="0"
+                      ) Tổng quan dự án
 
 
           .sw-mains
-            .sw-item
+            .sw-item(data-aos="fade-zoom-in"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="300"
+                      data-aos-offset="0"
+                      )
               h3 Chủ đầu tư
               p Công Ty CP ĐT XĐ & PT BĐS Thành Nguyên
               p Phát triển dự án: New World Capital
@@ -79,7 +122,11 @@ html.no-js(lang='en')
               p Quản lí vận hành: The Alcove
               p Quản lí khách sạn: Citadines Connect
             
-            .sw-item
+            .sw-item(data-aos="fade-zoom-in"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="300"
+                      data-aos-offset="0"
+                      )
               h3 Sản phẩm
               p – 400 Townhouse: 5×21; 8x21m2 – xây dựng 4 tầng
               p – 120 Shophouse: 5×24; 8x24m2 – Xây dựng 4 tầng
@@ -89,12 +136,20 @@ html.no-js(lang='en')
 
 
           .sw-mains
-            .sw-item
+            .sw-item(data-aos="fade-zoom-in"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="300"
+                      data-aos-offset="0"
+                      )
               h3 Vị trí
               p Nút giao đường 30/4 – Bùi Quốc Khánh, P. Chánh Nghĩa, Thủ Dầu Một
 
             
-            .sw-item
+            .sw-item(data-aos="fade-zoom-in"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="300"
+                      data-aos-offset="0"
+                      )
               h3 Tiện ích
               p Club house Yoko; Onsen Spa; TTTT Michio; Trà Đạo Yasu; Khu Vui Chơi Trẻ Em Aiko; Hồ Bơi Tràn Ruri; Con Đường Tre Sagano; Vườn Hoa Haruko; Công Viên; Hồ Cá Koi; Trung Tâm Thương Mại Shibuya; Khu Phố Ẩm Thực…
 
@@ -102,25 +157,49 @@ html.no-js(lang='en')
 
 
           .sw-mains
-            .sw-item
+            .sw-item(data-aos="fade-zoom-in"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="300"
+                      data-aos-offset="0"
+                      )
               h3 Quy mô
               p – Dự án rộng hơn 19,7ha
               p – Mật độ xây dựng 51,48%
             
-            .sw-item
+            .sw-item(data-aos="fade-zoom-in"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="300"
+                      data-aos-offset="0"
+                      )
               h3 Tiến độ
               p – Khởi công 2/2020
               p – Công bố tháng 12/2020
               p – Bàn giao quý 1/2022
               
       section#s3
-        .sw-main 
-          h2 GIỚI THIỆU DỰ ÁN            
+        .sw-main(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="300"
+                      data-aos-offset="0"
+                      )
+          h2(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="00"
+                      data-aos-offset="0"
+                      ) GIỚI THIỆU DỰ ÁN            
           p.line
           br
-          p.da Nằm trong khu vực kinh tế trọng điểm phía Nam, Bình Dương là tỉnh có tốc độ tăng trưởng kinh tế cao hơn mức bình quân chung của cả nước. Là “thủ phủ” công nghiệp và là tỉnh thành thu hút vốn FDI đứng thứ 3 cả nước. Hiện tại, có hơn 48 cụm khu công nghiệp, 508 doanh nghiệp lớn nhỏ.
+          p.da(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="300"
+                      data-aos-offset="0"
+                      ) Nằm trong khu vực kinh tế trọng điểm phía Nam, Bình Dương là tỉnh có tốc độ tăng trưởng kinh tế cao hơn mức bình quân chung của cả nước. Là “thủ phủ” công nghiệp và là tỉnh thành thu hút vốn FDI đứng thứ 3 cả nước. Hiện tại, có hơn 48 cụm khu công nghiệp, 508 doanh nghiệp lớn nhỏ.
           br
-          p.da Riêng thành phố Thủ Dầu Một là đô thị hạt nhân, đang định hướng để trở thành một khu đô thị năng động, hiện đại và là nơi kết nối giao lưu quốc tế, thương mại dịch vụ để trở thành một đô thị thông minh trong tương lai.
+          p.da(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="600"
+                      data-aos-offset="0"
+                      ) Riêng thành phố Thủ Dầu Một là đô thị hạt nhân, đang định hướng để trở thành một khu đô thị năng động, hiện đại và là nơi kết nối giao lưu quốc tế, thương mại dịch vụ để trở thành một đô thị thông minh trong tương lai.
           br    
           a(href="./chitiet.html" class="btn-xct") Xem chi tiết
 
@@ -154,15 +233,27 @@ html.no-js(lang='en')
                 p  12. Phố ẩm thực Yatai 
           
           
-          .sw-item
+          .sw-item(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="300"
+                      data-aos-offset="0"
+                      )
             img(src="./images/mat-bang-tien-ich-du-an-takara-residence-thu-dau-mot-scaled.jpg", alt="")
 
       section#s3d
         .sw-main
-          .sw-item
+          .sw-item(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="900"
+                      data-aos-offset="0"
+                      )
             img(src="./images/map2.png", alt="")
 
-          .sw-item
+          .sw-item(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="600"
+                      data-aos-offset="0"
+                      )
             .sw-box
               h2 Tâm Điểm Đắt Giá Của Bình Dương
               .sw-itemm
@@ -175,7 +266,11 @@ html.no-js(lang='en')
                   li 16km: Đến quận Thủ Đức, TP.HCM
       section#s3c
         .sw-mainn
-        .sw-main
+        .sw-main(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="300"
+                      data-aos-offset="0"
+                      )
           h2 CÁC TIỆN ÍCH ĐẲNG CẤP        
           p  Hệ thống tiện ích thư giãn, giải trí đẳng cấp lần đầu xuất hiện mang đến trải nghiệm đặc biệt cho cư dân
           br
@@ -198,25 +293,44 @@ html.no-js(lang='en')
       section#s4
         .sw-mainn
 
-        .sw-main
+        .sw-main(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="300"
+                      data-aos-offset="0"
+                      )
           h2 Mặt bằng phân lô chi tiết
           p Mặt bằng tổng thể
           img(src="./images/b.jpg", alt="")
       section#s5
         .sw-main
-          h2 Thiết kế nội thất & Nhà phố
+          h2(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="300"
+                      data-aos-offset="0"
+                      ) Thiết kế nội thất & Nhà phố
           .sw-itemm
-            .sw-item
+            .sw-item(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="500"
+                      data-aos-offset="0"
+                      )
               p Nội thất
               img(src="./images/noithat.jpg", alt="")
 
-            .sw-item
+            .sw-item(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="700"
+                      data-aos-offset="0"
+                      )
               p Nhà phố
               img(src="./images/nhapho.jpg", alt="")
-        a(href="./ntnp.html" class="btn-xct") Xem chi tiết
 
       section#s5b
-        section.tabs
+        section.tabs(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="300"
+                      data-aos-offset="0"
+                      )
           input#tab-1.tab-selector-1(type='radio' name='radio-set' checked='checked')
           label.tab-label-1(for='tab-1') Towhouse
           input#tab-2.tab-selector-2(type='radio' name='radio-set')
@@ -233,25 +347,61 @@ html.no-js(lang='en')
       section#s5c
         h2(style='text-align:center;color:red;') Cập nhật tiến độ dự án tháng 12
         .grid-container
-          .grid-item
+          .grid-item(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="300"
+                      data-aos-offset="0"
+                      )
             img(src='./images/da1.jpg')
-          .grid-item
+          .grid-item(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="400"
+                      data-aos-offset="0"
+                      )
             img(src='./images/da2.jpg')
-          .grid-item
+          .grid-item(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="500"
+                      data-aos-offset="0"
+                      )
             img(src='./images/da3.jpg')
-          .grid-item
+          .grid-item(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="600"
+                      data-aos-offset="0"
+                      )
             img(src='./images/da4.jpg')
-          .grid-item
+          .grid-item(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="700"
+                      data-aos-offset="0"
+                      )
             img(src='./images/da5.jpg')
-          .grid-item
+          .grid-item(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="800"
+                      data-aos-offset="0"
+                      )
             img(src='./images/da6.jpg')
-          .grid-item
+          .grid-item(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="900"
+                      data-aos-offset="0"
+                      )
             img(src='./images/da7.jpg')
-          .grid-item
+          .grid-item(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="1000"
+                      data-aos-offset="0"
+                      )
             img(src='./images/da8.jpg')
 
       section#s6
-        .grid-container
+        .grid-container(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="300"
+                      data-aos-offset="0"
+                      )
           .grid-item Phát triển dự án
           .grid-item 
             img(src="./images/dt1.png", alt="")
@@ -279,7 +429,11 @@ html.no-js(lang='en')
         .sw-mainn
 
         .sw-main
-          .sw-item
+          .sw-item(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="600"
+                      data-aos-offset="0"
+                      )
             h2 Đăng ký ngay để nhận báo giá căn nhà
             input(type="text" placeholder="Họ tên")
             input(type="text" placeholder="Số điện thoại")
@@ -287,7 +441,11 @@ html.no-js(lang='en')
 
             button.dk Đăng ký
 
-          .sw-item
+          .sw-item(data-aos="fade-up"
+                      data-aos-easing="ease-in-back"
+                      data-aos-delay="800"
+                      data-aos-offset="0"
+                      )
             h2 Thông tin liên hệ
             p Công Ty CP ĐT XD & KD Bất Động Sản Thành Nguyên
             br
@@ -312,5 +470,6 @@ html.no-js(lang='en')
 
 
     script(src='https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js')
-    
+    script(src='https://unpkg.com/aos@2.3.1/dist/aos.js')
+
     script(src='js/style.js')
